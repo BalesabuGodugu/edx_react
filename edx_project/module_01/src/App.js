@@ -8,6 +8,8 @@ class App extends Component {
   }
 
 // call click event and update count 
+// state updated
+
 incrementCount(){
   this.setState({
     count:this.state.count+1
